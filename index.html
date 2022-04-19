@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Rory Mackay">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav1/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav1/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav1/favicon-16x16.png">
+    <link rel="manifest" href="./fav1/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculate Volume of a Sphere in Javascript</title>
+  </head>
+  <body>
+    <!-- Link to script -->
+    <script src="./js/script.js"></script>
+    <!-- Title and header -->
+    <h1>Calculate Fahrenheit to Celsius in Javascript</h1>
+		<h3>Enter temperature in fahrenheit below:</h3>
+    <!-- Function and textfields -->
+		<form action="javascript:calculateCelsius()">
+		<label for="temp-fahrenheit">Enter radius of sphere in cm</label>
+    <input type="number" step="any" id="temp-fahrenheit" placeholder="Enter temperature in fahrenheit..."><br><br>
+		<input type="submit" value="Calculate">
+	</form>
+    <br>
+	<img src="./images/far-to-cel.jpg" alt="Fahrenheit to Celsius" width="30%" height="30%"/>
+		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+			<div id="celsius">
+			</div>
+		</div>
+  </body>
+</html>
